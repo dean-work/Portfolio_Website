@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+nav ul li {
+    color: midnightblue;
+    list-style: none;
+    display: inline-block;
+
+    border: 1px black solid;
+    margin: 0;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-around;
+
+    position: fixed;
+    margin: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+
