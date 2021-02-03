@@ -40,6 +40,17 @@ body {
     background-color: rgb(140, 177, 140);
 }
 
+#img_button {
+    display: flexbox;
+    position: relative;
+    background-color: seashell;
+    border: 0;
+
+    width: 45%;
+    height: 45%;
+    padding: 0;
+}
+
 main {
     position: relative;
     top: 65px;
@@ -74,10 +85,9 @@ main img {
     display: flexbox;
     position: relative;
 
-    width: 45%;
-    height: 45%;
-    padding: 1% 1%;
-    border: 1px black solid;
+    width: 100%;
+    height: 100%;
+    padding: 2% 2%;
 }
 
 .image-side {
@@ -146,11 +156,19 @@ main img {
         display: inline-block;
     }
 
+    #img_button {
+    display: flexbox;
+    position: relative;
+    background-color: seashell;
+    border: 0;
+
+    width: 97%;
+    height: 97%;
+    padding: 0;
+    }   
+
     main img {
         position: relative;
-
-        width: 97%;
-        height: 100%;
         margin: 0;
     }
 
@@ -165,4 +183,3 @@ main img {
         display: none !important;
     }
 }
-
